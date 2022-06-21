@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    font-family: system-ui, serif;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    background: #000000;
+    
+}
+
+
+img {display:block;}
+.scale{
+    display: relative;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out; 
+}
+
+.scale:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.texts{
+    display: absolute;
+    z-index: 2;
+    color: white;
+    top: 150px;
+}

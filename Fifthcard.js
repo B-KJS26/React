@@ -1,26 +1,26 @@
 import React, { useState } from 'react';
-import './Firstcard.css';
+import './fifthcard.css';
 
-function FirstCard() {
+function FifthCard() {
     let count = 0;
     function show() {
         count++;
         if(count%2 != 0){
-        document.getElementById("holdone").style.display = 'block';}
+        document.getElementById("holdfive").style.display = 'block';}
         else
-        document.getElementById("holdone").style.display = 'none';
+        document.getElementById("holdfive").style.display = 'none';
     }
     return(
             <div className="wrapper">
                 <div className='content'>
                     <div className ="scale">
-                        <div className = "imgesa" id = "first" onClick={show}>
-                            <h1 id="holdone">Hold</h1>
+                        <div className = "imgesa" id = "fifth" onClick={show}>
+                            <h1 id="holdfive">Hold</h1>
                         </div>
                     </div>
-                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
                 <br></br>
             </div>
     )}
 
-export default FirstCard;
+export default FifthCard;

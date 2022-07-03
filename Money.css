@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 45%;
+    height: 10%;
+    margin: 0 auto;
+    background: gray;
+    opacity: 0.8;
+}   
+#michin {
+    position: absolute;
+    left: 45%;  
+    display: flex;
+    flex-direction: column;
+    line-height: 30%;
+}
+#dorat {
+    position: absolute;
+    left: 45%;
+    display: flex;
+    line-height: 400%;
+}

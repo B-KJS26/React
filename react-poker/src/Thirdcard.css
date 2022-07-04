@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.content {
+    font-family: system-ui, serif;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    background: #000000;
+    
+}
+
+
+.scale{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out; 
+}
+
+.scale:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#holdth{
+    position: absolute;
+    font-size: 3em;
+    text-shadow: 2px 3px 0 #fff;
+    position: absolute;
+    right: 35px;
+    bottom: 10px;
+    background: yellow;
+    display: none;
+}
+
+#third {
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\1heart.png");
+    display: block;
+    width: 180px;
+    height: 250px;
+}

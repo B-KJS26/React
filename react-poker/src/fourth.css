@@ -9,7 +9,6 @@
     padding: 0.3rem;
     border-radius: 1rem;
     background: #000000;
-    
 }
 
 
@@ -41,9 +40,24 @@
     display: none;
 }
 
-#fourth {
+.imgesaf {
     position: relative;
     background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\spade.png");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+.sixclov {
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\6clov.jpg");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+.fspade{
+    
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\4spade.jpg");
     display: block;
     width: 180px;
     height: 250px;

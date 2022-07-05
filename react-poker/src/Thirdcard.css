@@ -41,9 +41,27 @@
     display: none;
 }
 
-#third {
+.imgesath {
     position: relative;
     background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\1heart.png");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+
+.theart{
+    
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\10heart.jpg");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+
+.sdia{
+    
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\7spade.jpg");
     display: block;
     width: 180px;
     height: 250px;

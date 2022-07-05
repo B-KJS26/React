@@ -41,9 +41,24 @@
     display: none;
 }
 
-#fifth {
+.imgesafi {
     position: relative;
     background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\Jclov.png");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+
+.fclov{
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\4clov.jpg");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+.fdia{
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\4dia.jpg");
     display: block;
     width: 180px;
     height: 250px;

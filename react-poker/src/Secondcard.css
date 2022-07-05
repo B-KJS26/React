@@ -43,10 +43,26 @@
     display: none;
 }
 
-#second {
+.imgesas {
     position: relative;
     background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\1dia.png");
     display: block;
     width: 180px;
     height: 250px;
+}
+
+.changedd {
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\5heart.jpg");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+.eclov {
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\8clov.jpg");
+    display: block;
+    width: 180px;
+    height: 250px;
+    
 }

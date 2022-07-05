@@ -42,9 +42,25 @@
 }
 
 
-#first {
+.imgesaf {
     position: relative;
     background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\1clov.png");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+
+.changed {
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\2dia.jpg");
+    display: block;
+    width: 180px;
+    height: 250px;
+}
+.joker {
+    
+    position: relative;
+    background: url("C:\Users\SW2134\Desktop\Poker\react-poker\public\img\7dia.jpg");
     display: block;
     width: 180px;
     height: 250px;

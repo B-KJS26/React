@@ -1,0 +1,15 @@
+.Todoss {
+    padding: 20px;
+    border: solid 1px;
+    display: flex;
+}
+.condition {
+    padding-top: 30px;
+    font-size: 200%;
+    flex: 0.45;
+}
+.Listname {
+    padding-top: 30px;
+    font-size: 200%;
+    flex: 0.6;
+}
